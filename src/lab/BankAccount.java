@@ -46,6 +46,7 @@ public class BankAccount {
 		return (int) (balance = balance + Deposit);
 	}
 
+
 	/**
 	 * 
 	 * @param withdrawAmt amount to be withdraw 
@@ -61,6 +62,7 @@ public class BankAccount {
 		}
 		return (int) balance;
 	}
+
 
 	/**
 	 * this is a method to display the name of the bank,name of the account holder,account number,account balance of the person
