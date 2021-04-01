@@ -48,6 +48,23 @@ public class BankAccount {
 
 
 	/**
+	 * 
+	 * @param withdrawAmt amount to be withdraw 
+	 * @return remaining balance
+	 */
+	int Withdraw(int withdrawAmt){
+		if(withdrawAmt > 5000) {
+			System.out.println("cannot withdraw more than 5000");
+			}
+		
+		else {
+			 balance = balance - withdrawAmt;
+		}
+		return (int) balance;
+	}
+
+
+	/**
 	 * this is a method to display the name of the bank,name of the account holder,account number,account balance of the person
 	 * @see bank_name()
 	 * @see name()
